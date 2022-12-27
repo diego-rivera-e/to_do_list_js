@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Lista To </title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1> To Do List</h1>
+        <hr/>
+        <div>
+            <label> Nueva Tarea</label><br/>
+            <input type="text" class="form-control" id="newTask"/>
+        </div>
+        <div class="pull-right">
+            Realizadas : <span id="taskReady"></span>/ Total : <span id="totalTasks"></span>
+        </div>
+            <h2>Tareas</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tarea</th>
+                        <th colspan="2" class="text-right">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tasks"></tbody>
+        </div>
+    </div>
+
+<script src="/assets/js/script.js"></script>
+   
+</body>
+
+</html>
